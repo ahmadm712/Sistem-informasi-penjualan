@@ -1,24 +1,14 @@
-   <html>
-       <body>
-       <style>
-		.site-footer{background:#5A9367; color:#fff;}
-		#main-content{ background:#fff;}
-		#hidden {display:none}
-	</style>
    <!--main content end-->
-
-
       <!--footer start-->
       <footer class="site-footer">
           <div class="text-center">
               <?php echo date('Y');?> - Sistem Penjualan Barang Berbasis Web | 
-              By <a href="https://www.instagram.com/ahmxmad" style="color:yellow;font-weight:700;" target="_blank">Ahmad Muji</a>
+              By <a href="#" style="color:yellow;font-weight:700;" target="_blank">Ahmad Muji</a>
               <a href="#" class="go-top">
                   <i class="fa fa-angle-up"></i>
               </a>
-          </div>`
+          </div>
       </footer>
-    
       <!--footer end-->
   </section>
 

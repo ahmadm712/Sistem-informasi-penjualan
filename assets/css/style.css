@@ -1,7 +1,7 @@
 
 body {
     color: #797979;
-	background: #121111;
+	background: #f2f2f2;
     font-family: 'Ruda', sans-serif;
     padding: 0px !important;
     margin: 0px !important;
@@ -63,19 +63,19 @@ a, a:hover, a:focus {
 /*Theme Backgrounds*/
 
 .bg-theme {
-	background-color: #4ed9ed;
+	background-color: #68dff0;
 }
 
 .bg-theme02 {
-	background-color:#2ade5a;
+	background-color: #ac92ec;
 }
 
 .bg-theme03 {
-  background-color: #14dbc7;
+  background-color: #48cfad;
 }
 
 .bg-theme04 {
-  background-color: #e82a3e;
+  background-color: #ed5565;
 }
 /*Theme Buttons*/
 
@@ -207,10 +207,10 @@ ul.top-menu > li > .logout {
 	font-size: 12px;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
-	border: 1px solid #ffffff !important;
+	border: 1px solid #f8f407 !important;
 	padding: 5px 15px;
 	margin-right: 15px;
-    background: #ffffff;
+    background: #f8f407;
     font-weight: 800;
 	margin-top: 15px;
 }
@@ -222,7 +222,7 @@ ul.top-menu > li > .logout {
     width: 210px;
     height: 100%;
     position: fixed;
-    background: black;
+    background: #424a5d;
 }
 
 #sidebar h5 {
@@ -1045,7 +1045,7 @@ PANELS CONFIGURATIONS
 /*Green Panel*/
 .green-panel {
 	text-align: center;
-	background: blue;
+	background: whitesmoke;
 }
 .green-panel .green-header {
 	background: #43b1a9;
@@ -1395,18 +1395,16 @@ PANELS CONFIGURATIONS
 	margin-left: 8px;
 	margin-right: 8px;
 	margin-top: 15px;
-    
 	font-size: 12px;
 }
 
 /* Calendar Configuration */
-.calendar {
-	color:#5A9367;
-    background: #5A9367;
-	padding: 0px !important;
+#calendar {
+	color: white;
+	padding: 0px ;
 }
 .calendar-month-header {
-	background: #5A9367;
+	background: white;
 }
 
 /* TODO PANEL */
@@ -2208,10 +2206,10 @@ label {
 
 /*footer*/
 .site-footer {
-    background: green;
-    color:green;
+    background: #285c64;
+    color: #fff;
     padding: 12px 0;
-    font-size:10pt;
+    font-size:12pt;
 }
 
 

@@ -1,7 +1,5 @@
  <!--sidebar end-->
-     
-		  
-	  
+      
       <!-- **********************************************************************************************************************************************************
       MAIN CONTENT
       *********************************************************************************************************************************************************** -->
@@ -103,7 +101,7 @@
 				<div id="calendar" class="mb">
 					<div class="panel green-panel no-margin">
 						<div class="panel-body">
-							<div id="date-popover" class="popover top" style="cursor: pointer; disadding: block; margin-left: 33%; margin-top: -50px; width: 100px;">
+							<div id="date-popover" class="popover top" style="cursor: pointer; disadding: block; margin-left: 33%; margin-top: -50px; width: 105px;">
 								<div class="arrow"></div>
 								<h3 class="popover-title" style="disadding: none;"></h3>
 								<div id="date-popover-content" class="popover-content"></div>
@@ -116,12 +114,5 @@
 		  </div><! --/row -->
 		 <div class="clearfix" style="padding-top:18%;"></div>
 	  </section>
-	  <style>
-		#calendar{background:#5A9367; color:#fff;}
-		#main-content{ background:#fff;}
-		#hidden {display:none}
-	</style>
   </section>
-  </body>
-  
 
