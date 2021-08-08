@@ -10,6 +10,14 @@ if(!empty($_SESSION['admin'])){
 		$row -> execute($data);
 		echo '<script>window.location="../../index.php?page=kategori&&remove=hapus-data"</script>';
 	}
+	if(!empty($_GET['kategoris'])){
+		$id= $_GET['id'];
+		$data[] = $id;
+		$sql = 'DELETE FROM kategori_satuan WHERE id_kategori=?';
+		$row = $config -> prepare($sql);
+		$row -> execute($data);
+		echo '<script>window.location="../../index.php?page=kategoris&&remove=hapus-data"</script>';
+	}
 	if(!empty($_GET['barang'])){
 		$id= $_GET['id'];
 		$data[] = $id;

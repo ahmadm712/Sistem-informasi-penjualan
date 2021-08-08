@@ -12,6 +12,16 @@ if(!empty($_SESSION['admin'])){
 		$row -> execute($data);
 		echo '<script>window.location="../../index.php?page=kategori&&success=tambah-data"</script>';
 	}
+	if(!empty($_GET['kategoris'])){
+		$nama= $_POST['kategoris'];
+		$tgl= date("j F Y, G:i");
+		$data[] = $nama;
+		$data[] = $tgl;
+		$sql = 'INSERT INTO kategori_satuan (nama_kategori,tgl_input) VALUES(?,?)';
+		$row = $config -> prepare($sql);
+		$row -> execute($data);
+		echo '<script>window.location="../../index.php?page=kategoris&&success=tambah-data"</script>';
+	}
 	if(!empty($_GET['barang'])){
 		$id = $_POST['id'];
 		$kategori = $_POST['kategori'];

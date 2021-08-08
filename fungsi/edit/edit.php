@@ -31,6 +31,17 @@ if(!empty($_SESSION['admin'])){
 		echo '<script>window.location="../../index.php?page=kategori&uid='.$id.'&success-edit=edit-data"</script>';
 	}
 
+	if(!empty($_GET['kategoris'])){
+		$nama= htmlentities($_POST['kategoris']);
+		$id= htmlentities($_POST['id']);
+		$data[] = $nama;
+		$data[] = $id;
+		$sql = 'UPDATE kategori_satuan SET  nama_kategori=? WHERE id_kategori=?';
+		$row = $config -> prepare($sql);
+		$row -> execute($data);
+		echo '<script>window.location="../../index.php?page=kategoris&uid='.$id.'&success-edit=edit-data"</script>';
+	}
+
 	if(!empty($_GET['stok'])){
 		$restok = htmlentities($_POST['restok']);
 		$id = htmlentities($_POST['id']);

@@ -42,6 +42,13 @@
 				$hasil = $row -> fetchAll();
 				return $hasil;
 			}
+			function kategori_satuan(){
+				$sql = "select*from kategori_satuan";
+				$row = $this-> db -> prepare($sql);
+				$row -> execute();
+				$hasil = $row -> fetchAll();
+				return $hasil;
+			}
 
 			function barang(){
 				$sql = "select barang.*, kategori.id_kategori, kategori.nama_kategori
@@ -111,9 +118,24 @@
 				$hasil = $row -> fetch();
 				return $hasil;
 			}
+			function kategori_edit_satuan($id){
+				$sql = "select*from kategori_satuan where id_kategori=?";
+				$row = $this-> db -> prepare($sql);
+				$row -> execute(array($id));
+				$hasil = $row -> fetch();
+				return $hasil;
+			}
 
 			function kategori_row(){
 				$sql = "select*from kategori";
+				$row = $this-> db -> prepare($sql);
+				$row -> execute();
+				$hasil = $row -> rowCount();
+				return $hasil;
+			}
+
+			function kategori_row_s(){
+				$sql = "select*from kategori_satuan";
 				$row = $this-> db -> prepare($sql);
 				$row -> execute();
 				$hasil = $row -> rowCount();

@@ -31,7 +31,8 @@
 
                       <ul class="sub">
                           <li><a  href="index.php?page=barang">Barang</a></li>
-                          <li><a  href="index.php?page=kategori">Kategori</a></li>
+                          <li><a  href="index.php?page=kategori">Kategori Barang</a></li>
+                          <li><a  href="index.php?page=kategoris">Kategori Satuan</a></li>
                           <li><a  href="index.php?page=user">User</a></li>
                       </ul>
 

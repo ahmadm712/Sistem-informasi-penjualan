@@ -173,6 +173,7 @@
 												<td>ID Barang</td>
 												<td><input type="text" readonly="readonly" required value="<?php echo $format;?>" class="form-control"  name="id"></td>
 											</tr>
+											//ini untuk contoh nya
 											<tr>
 												<td>Kategori</td>
 												<td>
@@ -200,15 +201,23 @@
 												<td>Harga Jual</td>
 												<td><input type="number" placeholder="Harga Jual" required class="form-control"  name="jual"></td>
 											</tr>
+											// Ganti seperti kategori ambil dari db
 											<tr>
 												<td>Satuan Barang</td>
 												<td>
 													<select name="satuan" class="form-control" required>
 														<option value="#">Pilih Satuan</option>
 														<option value="PCS">PCS</option>
+														<option value="LUSIN">LUSIN</option>
+														<option value="LUSIN">DUS</option>
+
 													</select>
+													
+
+
 												</td>
 											</tr>
+											//end
 											<tr>
 												<td>Stok</td>
 												<td><input type="number" required Placeholder="Stok" class="form-control"  name="stok"></td>
