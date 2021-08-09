@@ -49,7 +49,7 @@
     <![endif]-->
   </head>
 
-  <body style="background:#004643;color:#fff;">
+  <body style="background:#004643;">
 
       <!-- **********************************************************************************************************************************************************
       MAIN CONTENT
@@ -60,8 +60,10 @@
 		      <form class="form-login" method="POST">
 		        <h2 class="form-login-heading">Sistem Informasi Penjualan</h2>
 		        <div class="login-wrap">
+					<label for="uname"><b>Username</b></label>
 		            <input type="text" class="form-control" name="user" placeholder="User ID" autofocus>
 		            <br>
+					<label for="uname"><b>Password</b></label>
 		            <input type="password" class="form-control" name="pass" placeholder="Password">
 		            <br>
 		            <button class="btn btn-primary btn-block" name="proses" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>

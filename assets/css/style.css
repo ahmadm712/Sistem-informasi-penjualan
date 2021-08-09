@@ -1140,6 +1140,9 @@ PANELS CONFIGURATIONS
 	font-weight: 900;
 	font-size: 14px;
 }
+.uname{
+    color: #1a1a1a;
+}
 
 /*Content Panel*/
 .content-panel {
@@ -1917,7 +1920,7 @@ label {
 .form-login {
 	max-width: 330px;
 	margin: 100px auto 0;
-	background: #fff;
+	
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
@@ -1929,7 +1932,7 @@ label {
 	background: #42929e;
 	border-radius: 5px 5px 0 0;
 	-webkit-border-radius: 5px 5px 0 0;
-	color: #fff;
+	color: #272b34;
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 300;
