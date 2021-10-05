@@ -6,9 +6,9 @@ error_reporting(0);
 	
 	//$host 	= 'localhost'; 
 	$host 	= 'remotemysql.com'; 
-	$user 	= 'yB2ElNKXXS';  
-	$pass 	= 'o6uQDK1hpQ'; 
-	$dbname = 'yB2ElNKXXS'; 
+	$user 	= 'R5jblcCQ9H';  
+	$pass 	= 'OnmSzYYu0o'; 
+	$dbname = 'R5jblcCQ9H'; 
 	
 	try{
 		$config = new PDO("mysql:host=$host;dbname=$dbname;", $user,$pass);
